@@ -1,0 +1,3 @@
+# Entertainment Monthly
+
+I made this site with mobiles and tablets in mind. Since I didn't get enough time to create a layout for larger devices as well, it looks best when viewed in a thin browser window or on a actual mobile device. Also, I wasn't entierly sure what I was supposed to make the site about, but out of the four categories I chose entertainment and just wrote two articles about upcoming movies and TV shows.. I tried to mention stakeholders and bring up relevant issues, so hopefully I wrote about the right things.
