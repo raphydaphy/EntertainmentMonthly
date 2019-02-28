@@ -1,0 +1,55 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+}
+
+.main {
+	padding: 25px;
+}
+
+nav {
+	overflow: hidden;
+	position: relative;
+	background-color: #1A2A37;
+}
+
+nav a {
+	text-decoration: none;
+	color: #bdc3c7;
+	padding: 14px 16px;
+	display: block;
+}
+
+nav a.navButton {
+	background: #020403;
+	color: #F0F7F4;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+nav div a:hover {
+	background-color: #141E2B;
+}
+
+.navActive {
+	background-color: #141E2B;
+	color: #F0F7F4;
+}
+
+nav #navLinks {
+	display: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+footer {
+	text-align: center;
+}
