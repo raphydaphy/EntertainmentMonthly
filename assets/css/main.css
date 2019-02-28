@@ -1,6 +1,7 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0;
+	background-color: #F0F7F4;
 }
 
 header {
@@ -9,12 +10,49 @@ header {
 
 .main {
 	padding: 25px;
+	background-color: #F0F7F4;
+}
+
+.alt {
+	background-color: #E5DCE0;
+}
+
+input[type=name], input[type=email], textarea {
+	border: none;
+	border-bottom: 1px solid #2d3436;
+	background-color: #F0F7F4;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 4px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+	height: 2em;
+	overflow: hidden;
+}
+
+input[type=name]:focus, input[type=email]:focus textarea:focus {
+	border-bottom: 1px solid #636e72;
 }
 
 nav {
 	overflow: hidden;
 	position: relative;
 	background-color: #1A2A37;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	list-style: none;
 }
 
 nav a {
@@ -32,7 +70,7 @@ nav a.navButton {
 	top: 0;
 }
 
-nav div a:hover {
+nav ul li a:hover {
 	background-color: #141E2B;
 }
 
@@ -48,6 +86,11 @@ nav #navLinks {
 img {
 	width: 100%;
 	display: block;
+}
+
+article a {
+	text-decoration: none;
+	color: #1A2A37;
 }
 
 footer {
